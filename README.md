@@ -2,7 +2,7 @@
 
 
 
-## trial1
+## ■ trial1
 
 Zaim API を使ったWebアプリケーション。
 
@@ -11,7 +11,7 @@ https://github.com/HitomiHoshisaki/zaim_trial/tree/master/trial1
 
 
 
-## trial2
+## ■ trial2
 
 Web版Zaimをスクレイピングして、家計簿の入力履歴を表示するコマンドラインツール。
 
