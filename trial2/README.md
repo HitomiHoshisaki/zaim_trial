@@ -48,7 +48,7 @@ Web版Zaimをスクレイピングして、家計簿の入力履歴を表示す�
 ### 1. コマンドラインで対話型を利用する場合
 
 ```
-  $ php /path/to/Log.php
+  $ php /path/to/zaim_trial/trial2/Log.php
 ```
 
 ![コマンドライン](https://raw.githubusercontent.com/HitomiHoshisaki/zaim_trial/master/img/trial2_1.png)
@@ -64,8 +64,8 @@ Web版Zaimをスクレイピングして、家計簿の入力履歴を表示す�
 動作確認をするだけでしたら、こちらのテストアカウントをご活用ください。
 
 ```
-  メールアドレス	zaim.trial@gmail.com
-  パスワード		zaimtrial
+  メールアドレス zaim.trial@gmail.com
+  パスワード zaimtrial
 ```
 
 
@@ -75,12 +75,12 @@ Web版Zaimをスクレイピングして、家計簿の入力履歴を表示す�
 ### 2. コマンドラインで引数を渡す場合
 
 ```
-$ php /path/to/Log.php メールアドレス パスワード 表示したい月 
+$ php /path/to/zaim_trial/trial2/Log.php メールアドレス パスワード 表示したい月 
 ```
 
 コマンドの末尾に「メールアドレス パスワード 表示したい月」の順で引数を渡してください。  
 全て半角英数、半角スペース区切り。月は201806のように記号なしの6ケタです。   
-例） php /path/to/Log.php zaim.trial@gmail.com zaimtrial 201805
+例） php /path/to/zaim_trial/trial2/Log.php zaim.trial@gmail.com zaimtrial 201806
 
 ![コマンドライン](https://raw.githubusercontent.com/HitomiHoshisaki/zaim_trial/master/img/trial2_2.png)
 
