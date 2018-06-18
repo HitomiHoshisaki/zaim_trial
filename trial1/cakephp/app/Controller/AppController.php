@@ -38,8 +38,20 @@ class AppController extends Controller {
 		App::import('Vendor', 'Consumer', array('file' => 'HTTP/OAuth/Consumer.php'));
 
 		# 使用者情報
-		$consumer_key = 'b69a26665aacd6731e6a4051cb397e548fd1bce8';
-		$consumer_secret = '88e1af266f5d6eb4b8e5ee41aa58d3c94587a12a';
+		$server = $_SERVER['SERVER_NAME'];
+		# AWS
+		if($server === '13.114.178.205') {
+			$consumer_key = 'b26c1fd054b32e13367ec0b16069c9eeaa0921cd';
+			$consumer_secret = '71837cdca589d56ec6cc20c87d5a6bc4d4f2b9b7';
+		# Vagrant	
+		} elseif($server === '192.168.33.10') {
+			$consumer_key = '525532a11791b3e1020578eea0a38c9107661c55';
+			$consumer_secret = '3fb57014ff9978879cabf860ba1a6e0ac5979dbd';
+		# localhost
+		} else { 
+			$consumer_key = 'b69a26665aacd6731e6a4051cb397e548fd1bce8';
+			$consumer_secret = '88e1af266f5d6eb4b8e5ee41aa58d3c94587a12a';	
+		}
 
         # 初期化
         $this->set('title_for_layout', 'シンプル家計簿');
