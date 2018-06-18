@@ -48,7 +48,7 @@ class Log {
                 </div>
 EOM;
             $this->email = 'zaim.trial@gmail.com';
-            $this->password = 'zaimtest';
+            $this->password = 'zaimtrial';
 
         } else {
             print ("\n───────── +｡*.ﾟ:｡ようこそ！+｡*.ﾟ:｡ ─────────\n");
